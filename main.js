@@ -53,7 +53,7 @@ $(document).ready(function () {
         accept: "application/json",
       },
       processData: false,
-      data: `{  \"personalizations\": [    {      \"to\": [        {          \"email\": \"eli@elevate.co.il\"        }      ],      \"subject\": \"שלום, ${name}\"    }  ],  \"from\": {    \"email\": \"ronnizan01@gmail.com\"  },  \"content\": [    {      \"type\": \"text/plain\",      \"value\": \"בחרת להרשם לקבלת מידע על פסגות  שמך: ${name} מספר פלאפון ${phone}\"    }  ]}`,
+      data: `{  \"personalizations\": [    {      \"to\": [        {          \"email\": \"ronnizan01@gmail.com\"        }      ],      \"subject\": \"שלום, ${name}\"    }  ],  \"from\": {    \"email\": \"ronnizan01@gmail.com\"  },  \"content\": [    {      \"type\": \"text/plain\",      \"value\": \"בחרת להרשם לקבלת מידע על פסגות  שמך: ${name} מספר פלאפון ${phone}\"    }  ]}`,
     };
 
     $.ajax(settings).done(function (response) {
@@ -108,7 +108,7 @@ $(document).ready(function () {
         accept: "application/json",
       },
       processData: false,
-      data: `{  \"personalizations\": [    {      \"to\": [        {          \"email\": \"eli@elevate.co.il\"        }      ],      \"subject\": \"שלום, ${name}\"    }  ],  \"from\": {    \"email\": \"ronnizan01@gmail.com\"  },  \"content\": [    {      \"type\": \"text/plain\",      \"value\": \"בחרת להרשם לקבלת מידע על פסגות  שמך: ${name} מספר פלאפון ${phone}\"    }  ]}`,
+      data: `{  \"personalizations\": [    {      \"to\": [        {          \"email\": \"ronnizan01@gmail.com\"        }      ],      \"subject\": \"שלום, ${name}\"    }  ],  \"from\": {    \"email\": \"ronnizan01@gmail.com\"  },  \"content\": [    {      \"type\": \"text/plain\",      \"value\": \"בחרת להרשם לקבלת מידע על פסגות  שמך: ${name} מספר פלאפון ${phone}\"    }  ]}`,
     };
 
     $.ajax(settings).done(function (response) {
